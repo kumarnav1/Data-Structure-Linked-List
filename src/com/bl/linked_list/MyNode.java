@@ -18,12 +18,4 @@ public class MyNode<K> {
     public void setNext(MyNode next) {
         this.next = next;
     }
-
-    public K getKey() {
-        return key;
-    }
-
-    public void setKey(K key) {
-        this.key = key;
-    }
 }
